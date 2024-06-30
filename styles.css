@@ -189,3 +189,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+.active {
+    color: #ff6347;
+}
