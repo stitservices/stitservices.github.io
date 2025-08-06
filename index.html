@@ -1,68 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STIT services</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Opening Bitget...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // The link for the app
+            const deepLink = "bitgetapp://futures/usdt/suiusdt"; 
+
+            // The link for the website if the app fails
+            const fallbackLink = "https://www.bitget.com/es-es/futures/usdt/suiusdt";
+
+            // This will try to open the app
+            window.location.href = deepLink;
+
+            // If the app doesn't open after 2 seconds, go to the website
+            setTimeout(function() {
+                window.location.href = fallbackLink;
+            }, 2500);
+        };
+    </script>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <img src="gfx/stit_logo.png" alt="STIT Services Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a class="active" href="/">Inicio</a></li>
-                    <li><a href="/services/particulares">Particulares</a></li>
-                    <li><a href="/services/empresas">Empresas</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Bienvenido a STIT services</h1>
-            <p>Tu solución integral para todas tus necesidades digitales.</p>
-        </div>
-    </section>
-
-    <section id="services">
-        <h2 style="margin-left: 5%;">Nuestros servicios</h2>
-        <div class="service">
-            <h3>Particulares</h3>
-            <p style="margin: 1rem 0rem;">Nuestros servicios para particulares están diseñados para proporcionar soluciones digitales personalizadas que mejoran su presencia en línea. Ofrecemos desarrollo de páginas web llamativas y modernas, adaptadas a sus necesidades individuales, para mostrar su marca y atraer a su audiencia deseada.</p>
-            <a href="/services/particulares">Más Información</a>
-        </div>
-        <div class="service">
-            <h3>Empresas</h3>
-            <p style="margin: 1rem 0rem;">Enfocados en optimizar la eficiencia empresarial, nuestros servicios para empresas abarcan desde la gestión administrativa hasta la implementación de soluciones en la nube. Automatizamos procesos y proporcionamos software especializado para mejorar la productividad y facilitar la administración de su empresa, asegurando un manejo más eficiente y eficaz de sus operaciones.</p>
-            <a href="/services/empresas">Más Información</a>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2 style="padding-bottom: 1rem;">Sobre Nosotros</h2>
-        <p style="margin: 1rem 2rem">
-            STIT nació para dar tecnología al mundo. <br>
-            Nos destacamos por ofrecer un servicio discreto y eficiente, comprometidos con la excelencia, la calidad y la profesionalidad. <br>
-            Nuestra misión es hacer que tanto particulares como empresas  sean más eficientes, brindando soluciones con atención y cuidado, y siempre manteniendo la confidencialidad como un valor fundamental.
-        </p>
-    </section>
-
-    <section id="contact">
-        <h2 style="padding-bottom: 1rem;">Contactanos</h2>
-        <p style="padding-bottom: 0.5rem;">stit.techservices@gmail.com</p>
-        <p>Teléfono: +34 711 79 18 13</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 STIT Services.</p>
-    </footer>
-
-    <div data-tf-live="01HYRBDMK10KGJPEQE83RBHQ84" data-tf-inline-on-mobile></div>
-    <script src="https://embed.typeform.com/next/embed.js"></script>
-
-    <script src="./js/script.js"></script>
+    <h1>Redirecting you to Bitget...</h1>
 </body>
 </html>
